@@ -2,16 +2,16 @@
 # CACE circuit characterization file
 #--------------------------------------------------------------
 
-name:           sky130_ef_ip__template
-description:    A template repository for analog designs to ensure consistency and interoperability between IP blocks.
+name:           sky130_op_amp
+description:    2 stage operational amplifier design
 PDK:            sky130A
 
 cace_format:    5.2
 
 authorship:
-  designer:         Leo Moser
-  company:          Efabless
-  creation_date:    November 20, 2024
+  designer:         Pravindu Goonetilleke x Nilakna Warushavithana
+  company:          University of Moratuwa
+  creation_date:    October 21, 2025
   license:          Apache 2.0
 
 paths:
@@ -23,31 +23,58 @@ paths:
   documentation:    docs
 
 pins:
-  VPWR:
-    description: Digital power supply
+  VDD:
+    description: Positive analog power supply
     type: power
     direction: inout
     Vmin: 1.7
     Vmax: 1.9
-  VGND:
-    description: Digital ground
+  VSS:
+    description: Analog ground
     type: ground
     direction: inout
-  A:
-    description: Inverter input
+  IBIAS:
+    description: Bias current input
     type: signal
     direction: input
-  Y:
-    description: Inverter output
+  Vp:
+    description: Voltage positive input
+    type: signal
+    direction: input
+  Vn:
+    description: Voltage negative input
+    type: signal
+    direction: input
+  Vout:
+    description: Voltage output
     type: signal
     direction: output
+  En:
+    description: Enable pin
+    type: signal
+    direction: input
 
 default_conditions:
   vdd:
-    description: Power supply voltage
+    description: Analog power supply voltage
     display: Vdd
     unit: V
     typical: 1.8
+  vcm:
+    description: Input common mode voltage
+    display: Vcm
+    unit: V
+    typical: 0.9
+  ib:
+    description: Bias current
+    display: Ib
+    unit: uA
+    typical: 5
+  cl:
+    description: Output load capacitance
+    display: CLoad
+    unit: pF
+    maximum: 25
   corner:
     description: Process corner
     display: Corner
@@ -57,11 +84,61 @@ default_conditions:
     display: Temp
     unit: °C
     typical: 27
-
 parameters:
-
-  # TODO: add simulations
-
+  dc_params:
+    spec:
+      a0:
+        display: DC gain
+        description: The DC gain of the OTA
+        unit: V/V
+        minimum: 
+          value: 1000
+        typical:
+          value: any
+        maximum:
+          value: any
+      ugf:
+        display: Unity Gain Frequency
+        description: The unity gain frequency of the OTA
+        unit: Hz
+        minimum:
+          value: 1e6
+        typical:
+          value: any
+        maximum:
+          value: any
+      pm:
+        display: Phase Margin
+        description: The phase margin of the OTA
+        unit: °
+        minimum: 
+          value: 60
+        typical:
+          value: any
+        maximum:
+          value: any
+    tool:
+      ngspice:
+        template: sky130_op_amp_tb.sch
+        format: ascii
+        suffix: .data
+        variables: [a0, ugf, pm]
+    plot:
+      gain_vs_temperature:
+        type: xyplot
+        xaxis: temperature
+        yaxis: a0
+      phase_margin_vs_corner:
+        type: xyplot
+        xaxis: corner
+        yaxis: pm
+    conditions:
+      corner:
+        enumerate: [tt, ff, ss, fs, sf] # fs, sf
+      temperature:
+        minimum: -40
+        typical: 27
+        maximum: 130
   magic_area:
     spec:
       area:
@@ -69,7 +146,7 @@ parameters:
         description: Total circuit layout area
         unit: µm²
         maximum:
-          value: 600
+          value: 9600
       width:
         display: Width
         description: Total circuit layout width
