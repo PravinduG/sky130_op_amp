@@ -1,9 +1,0 @@
-Note: vdm: has no value, DC 0 assumed
-Error: no such vector as 180+vout_phase.
-Note: vdm: has no value, DC 0 assumed
-Note: vdm: has no value, DC 0 assumed
-Note: vdm: has no value, DC 0 assumed
-Fatal error: DC Transfer Function: Voltage source, current source, or resistor named "en" is not in the circuit
-doAnalyses: no such device
-
-dc simulation(s) aborted

@@ -1,6 +1,0 @@
-Directory for extraction files was not created.
-WARNING: RLIMIT_NOFILE is above 1024 and Tcl_Version<9 this may cause runtime issues [rlim_cur=1048576]
-Failure to read entire subtree of the cell.
-I/O error in writing compressed file ./gds/sky130_op_amp.gds.gz.
-No conditions found in template ac.sch
-No conditions found in template ac.sch

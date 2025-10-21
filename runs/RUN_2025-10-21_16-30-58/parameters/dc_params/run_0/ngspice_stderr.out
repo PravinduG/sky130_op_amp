@@ -1,4 +1,0 @@
-Error: Could not find include file {DUT_path}
-    While reading sky130_op_amp_tb.spice
-
-ERROR: fatal error in ngspice, exit(1)
