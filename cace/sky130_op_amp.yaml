@@ -133,6 +133,10 @@ parameters:
         xaxis: corner
         yaxis: pm
     conditions:
+      vdd:
+        minimum: 1.7
+        typical: 1.8
+        maximum: 1.9
       corner:
         enumerate: [tt, ff, ss, fs, sf] # fs, sf
       temperature:

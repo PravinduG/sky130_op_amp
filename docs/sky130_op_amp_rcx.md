@@ -5,9 +5,9 @@
 
 |      Parameter       |         Tool         |     Result      | Min Limit  |  Min Value   | Typ Target |  Typ Value   | Max Limit  |  Max Value   |  Status  |
 | :------------------- | :------------------- | :-------------- | ---------: | -----------: | ---------: | -----------: | ---------: | -----------: | :------: |
-| DC gain              | ngspice              | a0                   |        1000 V/V | 2438.830 V/V |          any | 3703.750 V/V |          any | 4312.820 V/V |   Pass ✅    |
-| Unity Gain Frequency | ngspice              | ugf                  |          1e6 Hz | 7525090.000 Hz |          any | 11571900.000 Hz |          any | 16703300.000 Hz |   Pass ✅    |
-| Phase Margin         | ngspice              | pm                   |            60 ° |   74.963 ° |          any |   80.121 ° |          any |   82.508 ° |   Pass ✅    |
+| DC gain              | ngspice              | a0                   |        1000 V/V | 1635.030 V/V |          any | 3592.070 V/V |          any | 4725.170 V/V |   Pass ✅    |
+| Unity Gain Frequency | ngspice              | ugf                  |          1e6 Hz | 7302760.000 Hz |          any | 11555800.000 Hz |          any | 17020100.000 Hz |   Pass ✅    |
+| Phase Margin         | ngspice              | pm                   |            60 ° |   74.486 ° |          any |   80.121 ° |          any |   82.978 ° |   Pass ✅    |
 | Area                 | magic_area           | area                 |               ​ |          ​ |            ​ |          ​ |     9600 µm² | 6689.038 µm² |   Pass ✅    |
 | Width                | magic_area           | width                |               ​ |          ​ |            ​ |          ​ |          any |  88.275 µm |   Pass ✅    |
 | Height               | magic_area           | height               |               ​ |          ​ |            ​ |          ​ |          any |  75.775 µm |   Pass ✅    |
