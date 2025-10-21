@@ -8,6 +8,7 @@
 | DC gain              | ngspice              | a0                   |        1000 V/V | 1635.030 V/V |          any | 3592.070 V/V |          any | 4725.170 V/V |   Pass ✅    |
 | Unity Gain Frequency | ngspice              | ugf                  |          1e6 Hz | 7302760.000 Hz |          any | 11555800.000 Hz |          any | 17020100.000 Hz |   Pass ✅    |
 | Phase Margin         | ngspice              | pm                   |            60 ° |   74.486 ° |          any |   80.121 ° |          any |   82.978 ° |   Pass ✅    |
+| DC gain MC           | ngspice              | a0                   |          50 V/V | 85.553 V/V |          any | 714.391 V/V |          any | 4048.600 V/V |   Pass ✅    |
 | Area                 | magic_area           | area                 |               ​ |          ​ |            ​ |          ​ |     9600 µm² | 6689.038 µm² |   Pass ✅    |
 | Width                | magic_area           | width                |               ​ |          ​ |            ​ |          ​ |          any |  88.275 µm |   Pass ✅    |
 | Height               | magic_area           | height               |               ​ |          ​ |            ​ |          ​ |          any |  75.775 µm |   Pass ✅    |
@@ -28,3 +29,7 @@
 ## phase_margin_vs_corner
 
 ![phase_margin_vs_corner](./sky130_op_amp/rcx/phase_margin_vs_corner.png)
+
+## gain_mc
+
+![gain_mc](./sky130_op_amp/rcx/gain_mc.png)
