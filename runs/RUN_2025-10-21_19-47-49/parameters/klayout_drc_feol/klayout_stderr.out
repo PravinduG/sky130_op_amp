@@ -1,0 +1,12 @@
+/foss/pdks/sky130A/libs.tech/klayout/drc/sky130A_mr.drc:53: warning: already initialized constant DRC::DRCEngine::FEOL
+/foss/pdks/sky130A/libs.tech/klayout/drc/sky130A_mr.drc:44: warning: previous definition of FEOL was here
+/foss/pdks/sky130A/libs.tech/klayout/drc/sky130A_mr.drc:61: warning: already initialized constant DRC::DRCEngine::BEOL
+/foss/pdks/sky130A/libs.tech/klayout/drc/sky130A_mr.drc:45: warning: previous definition of BEOL was here
+/foss/pdks/sky130A/libs.tech/klayout/drc/sky130A_mr.drc:67: warning: already initialized constant DRC::DRCEngine::OFFGRID
+/foss/pdks/sky130A/libs.tech/klayout/drc/sky130A_mr.drc:46: warning: previous definition of OFFGRID was here
+/foss/pdks/sky130A/libs.tech/klayout/drc/sky130A_mr.drc:73: warning: already initialized constant DRC::DRCEngine::SEAL
+/foss/pdks/sky130A/libs.tech/klayout/drc/sky130A_mr.drc:47: warning: previous definition of SEAL was here
+/foss/pdks/sky130A/libs.tech/klayout/drc/sky130A_mr.drc:79: warning: already initialized constant DRC::DRCEngine::FLOATING_MET
+/foss/pdks/sky130A/libs.tech/klayout/drc/sky130A_mr.drc:48: warning: previous definition of FLOATING_MET was here
+/foss/pdks/sky130A/libs.tech/klayout/drc/sky130A_mr.drc:85: warning: already initialized constant DRC::DRCEngine::SRAM_EXCLUDE
+/foss/pdks/sky130A/libs.tech/klayout/drc/sky130A_mr.drc:49: warning: previous definition of SRAM_EXCLUDE was here

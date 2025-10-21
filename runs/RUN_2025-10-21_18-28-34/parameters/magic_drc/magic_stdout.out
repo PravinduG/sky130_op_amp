@@ -1,0 +1,25 @@
+
+Magic 8.3 revision 527 - Compiled on Sat May 24 11:19:49 AM CEST 2025.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+WARNING: RLIMIT_NOFILE is above 1024 and Tcl_Version<9 this may cause runtime issues [rlim_cur=1048576]
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Using technology "sky130A", version 1.0.493-0-g0fe599b
+File </foss/designs/sky130_op_amp/mag/sky130_op_amp.mag> is already locked by pid 83370.  Opening read-only.
+Cell sky130_op_amp read from path /foss/designs/sky130_op_amp/mag
+sky130_op_amp: 10000 rects
+sky130_op_amp: 20000 rects
+DRC style is now "drc(full)"
+Cell sky130_fd_pr__res_xhigh_po_1p41_THFN8M read from path /foss/designs/sky130_op_amp/mag
+Loading DRC CIF style.
+drc = 0
+No errors found.
+

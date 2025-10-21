@@ -1,0 +1,40 @@
+Error: -231516 out of range for sqrt
+    in line b.x1.x62.x0.brbody_1
+
+Error: -231516 out of range for sqrt
+    in line b.x1.x62.x0.brbody_1
+
+Error: -231516 out of range for sqrt
+    in line b.x1.x62.x0.brbody_1
+
+Error: -231516 out of range for sqrt
+    in line b.x1.x62.x0.brbody_1
+
+Error: -231516 out of range for sqrt
+    in line b.x1.x62.x0.brbody_1
+
+Error: -231516 out of range for sqrt
+    in line b.x1.x62.x0.brbody_1
+
+Error: -231516 out of range for sqrt
+    in line b.x1.x62.x0.brbody_1
+
+Error: -231516 out of range for sqrt
+    in line b.x1.x62.x0.brbody_1
+
+Error: -231516 out of range for sqrt
+    in line b.x1.x62.x0.brbody_1
+
+Error: -231516 out of range for sqrt
+    in line b.x1.x62.x0.brbody_1
+
+doAnalyses: TRAN:  Timestep too small; time = 1e-07, timestep = 1.25e-20: cause unrecorded.
+
+
+tran simulation(s) aborted
+
+Error: measure  sr  max(TRIG) : no such vector as 'deriv(v(vout))'
+Error: &sr: no such variable.
+Error: RHS "" invalid
+Error: &sr_val: no such variable.
+Note: No ".plot", ".print", or ".fourier" lines; no simulations run

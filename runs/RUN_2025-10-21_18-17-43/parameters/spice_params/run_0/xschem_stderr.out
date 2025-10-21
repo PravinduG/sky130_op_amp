@@ -1,0 +1,9 @@
+Using run time directory XSCHEM_SHAREDIR = /foss/tools/xschem/share/xschem
+Sourcing /foss/tools/xschem/share/xschem/xschemrc init file
+Sourcing /foss/pdks/sky130A/libs.tech/xschem/xschemrc init file
+open_pdks installation: using /foss/pdks
+SKYWATER_MODELS: /foss/pdks/sky130A/libs.tech/combined
+SKYWATER_STDCELLS: /foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice
+-----------/foss/designs/sky130_op_amp/runs/RUN_2025-10-21_18-17-43/parameters/spice_params/run_0/sky130_op_amp_tb.sch
+Error: undriven node: Ven
+-----------/foss/designs/sky130_op_amp/runs/RUN_2025-10-21_18-17-43/parameters/spice_params/run_0/sky130_op_amp_tb.sch

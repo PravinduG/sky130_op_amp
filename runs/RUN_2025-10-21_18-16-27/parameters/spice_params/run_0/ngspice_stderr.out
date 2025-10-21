@@ -1,0 +1,18 @@
+Note: vdm: has no value, DC 0 assumed
+Error: no such vector as 180+vout_phase.
+Note: vdm: has no value, DC 0 assumed
+Note: vdm: has no value, DC 0 assumed
+vdm: no such command available in ngspice
+Note: vdm: has no value, DC 0 assumed
+
+Error: measure  sr_pos  max(TRIG) : no such vector as 'deriv(v(vout))'
+Error: Only a single param - value pair supported.
+Cannot alter parameters.
+Note: vdm: has no value, DC 0 assumed
+
+Error: measure  sr_neg  min(TRIG) : no such vector as 'deriv(v(vout))'
+Note: vdm: has no value, DC 0 assumed
+Fatal error: DC Transfer Function: Voltage source, current source, or resistor named "ven" is not in the circuit
+doAnalyses: no such device
+
+dc simulation(s) aborted

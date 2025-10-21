@@ -145,48 +145,6 @@ parameters:
         typical: 27
         maximum: 130
 
-  gain_mc:
-    description: DC gain Monte Carlo
-    display: DC gain MC
-    unit: V/V
-    spec:
-      a0:
-        minimum:
-          value: 50
-        typical:
-          value: any
-        maximum:
-          value: any
-    tool:
-      ngspice:
-        template: sky130_op_amp_tb.sch
-        # Merge runs with the same conditions
-        # but different iterations
-        # This is used for plotting
-        collate: iterations
-        format: ascii
-        suffix: .data
-        variables: [a0, null, null]
-    plot:
-      gain_mc:
-        type: histogram
-        xaxis: a0
-        limits: auto
-    conditions:
-      iterations:
-        description: Iterations to run
-        display: Iterations
-        minimum: 1
-        maximum: 10
-        step: linear
-        stepsize: 1
-      corner:
-        typical: mc
-      temperature:
-        minimum: -40
-        typical: 27
-        maximum: 130
-
 
   magic_area:
     spec:

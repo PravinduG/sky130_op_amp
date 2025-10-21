@@ -1,0 +1,39 @@
+
+Note: Compatibility modes selected: hs a
+
+
+Circuit: ** sch_path: /foss/designs/sky130_op_amp/runs/run_2025-10-21_19-47-49/parameters/dc_params/run_09/sky130_op_amp_tb.sch
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = -40.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+ Reference value :  1.00000e+03
+ Reference value :  1.77828e+03
+ Reference value :  3.16228e+03
+ Reference value :  5.01187e+03
+ Reference value :  7.94328e+03
+ Reference value :  1.25893e+04
+ Reference value :  2.23872e+04
+ Reference value :  3.54813e+04
+ Reference value :  5.62341e+04
+ Reference value :  1.00000e+05
+ Reference value :  1.41254e+05
+ Reference value :  2.23872e+05
+ Reference value :  3.98107e+05
+ Reference value :  7.07946e+05
+ Reference value :  1.41254e+06
+ Reference value :  2.51189e+06
+ Reference value :  5.01187e+06
+ Reference value :  1.00000e+07
+ Reference value :  1.99526e+07
+ Reference value :  3.98107e+07
+ Reference value :  8.91251e+07
+No. of Data Rows : 101
+a0                  =  3.764008e+03
+ugf                 =  1.486337e+07
+pm                  =  7.670267e+01
+Note: Simulation executed from .control section 

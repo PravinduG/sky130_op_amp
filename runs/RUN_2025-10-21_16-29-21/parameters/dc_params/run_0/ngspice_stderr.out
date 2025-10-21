@@ -1,0 +1,4 @@
+Error: Could not find include file {DUT_path}
+    While reading ac.spice
+
+ERROR: fatal error in ngspice, exit(1)

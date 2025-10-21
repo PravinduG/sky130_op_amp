@@ -1,0 +1,18 @@
+Netlist line no. 3:
+Undefined parameter [cl]
+Netlist line no. 3:
+Cannot compute substitute
+Netlist line no. 5:
+Undefined parameter [vcm]
+Netlist line no. 5:
+Cannot compute substitute
+Netlist line no. 6:
+Undefined parameter [ib]
+Netlist line no. 6:
+Cannot compute substitute
+Netlist line no. 10:
+Undefined parameter [vdd]
+Netlist line no. 10:
+Cannot compute substitute
+
+ERROR: fatal error in ngspice, exit(1)

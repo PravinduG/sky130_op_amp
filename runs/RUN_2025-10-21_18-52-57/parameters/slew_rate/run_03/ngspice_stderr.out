@@ -1,0 +1,10 @@
+
+Error: measure  sr_pos  max(TRIG) : no such vector as 'deriv(v(vout))'
+
+Error: measure  sr_neg  min(TRIG) : no such vector as 'deriv(v(vout))'
+Error: &sr_pos: no such variable.
+Error: RHS "" invalid
+Error: &sr_neg: no such variable.
+Error: RHS "" invalid
+Error: &sr_pos_val: no such variable.
+Error: &sr_neg_val: no such variable.

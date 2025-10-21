@@ -1,0 +1,14 @@
+DUT_path: /foss/designs/sky130_op_amp/netlist/rcx/sky130_op_amp.spice
+N: 76
+PDK: sky130A
+PDK_ROOT: /foss/pdks
+cl: '2.5e-11'
+corner: ss
+filename: transient
+ib: '4.9999999999999996e-06'
+iterations: '0'
+seed: '12345'
+simpath: /foss/designs/sky130_op_amp/runs/RUN_2025-10-21_19-17-39/parameters/slew_rate/run_76
+temperature: '130'
+vdd: '1.8'
+vstep: '200000.00000000003'
