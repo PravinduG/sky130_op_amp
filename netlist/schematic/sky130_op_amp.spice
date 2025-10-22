@@ -15,7 +15,7 @@ XM4 D2 D1 VDD VDD sky130_fd_pr__pfet_01v8 L=1 W=4 nf=4 ad='int((nf+1)/2) * W/nf 
 + ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=2 m=2
 XM6 VOUT D2 VDD VDD sky130_fd_pr__pfet_01v8 L=1 W=4 nf=4 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)'
 + ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=7 m=7
-XM7 VOUT IBIAS m7m10_net VSS sky130_fd_pr__nfet_01v8 L=1 W=5 nf=5 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
+XM7 VOUT IBIAS m7m10_net VSS sky130_fd_pr__nfet_01v8 L=1 W=5 nf=4 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
 + pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=12 m=12
 XC1 Cin VOUT sky130_fd_pr__cap_mim_m3_1 W=75 L=35 MF=1 m=1
 XM9 m5m9_net EN VSS VSS sky130_fd_pr__nfet_01v8 L=1 W=4 nf=4 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)'

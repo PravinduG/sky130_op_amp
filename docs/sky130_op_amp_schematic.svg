@@ -593,7 +593,7 @@ text {font-family: Sans-Serif;}
 <text fill="#ff0000"  xml:space="preserve" font-size="2.47013" transform="translate(399.353, 400.537)" >G</text>
 <text fill="#cccccc"  xml:space="preserve" font-size="3.2935" transform="translate(414.021, 397.903)" >nfet_01v8</text>
 <text fill="#aaaa00"  xml:space="preserve" font-size="3.2935" transform="translate(414.416, 408.806)" >12 x 5 / 1</text>
-<text fill="#aaaa00"  xml:space="preserve" font-size="3.2935" transform="translate(414.416, 404.847)" >nf=5</text>
+<text fill="#aaaa00"  xml:space="preserve" font-size="3.2935" transform="translate(414.416, 404.847)" >nf=4</text>
 <text fill="#00ccee"  xml:space="preserve" font-size="5.43428" transform="translate(210.073, 352.955)" >VN</text>
 <text fill="#00ccee"  xml:space="preserve" font-size="5.43428" transform="translate(439.355, 359.289)" >VOUT</text>
 <text fill="#00ccee"  xml:space="preserve" font-size="5.43428" transform="translate(298.813, 249.503) rotate(270)" >VDD</text>
