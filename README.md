@@ -5,6 +5,7 @@ Short description about your IP block.
 
 - [Documentation](docs/sky130_ef_ip__template.md)
 - Characterization
+  - [CACE](docs/sky130_op_amp_rcx.md)
   - [schematic](docs/sky130_ef_ip__template_schematic.md)
   - [layout](docs/sky130_ef_ip__template_layout.md)
   - [pex](docs/sky130_ef_ip__template_pex.md)
