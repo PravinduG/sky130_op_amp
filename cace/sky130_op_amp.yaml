@@ -153,19 +153,19 @@ parameters:
         description: Total circuit layout area
         unit: µm²
         maximum:
-          value: 9600
+          value: 11200
       width:
         display: Width
         description: Total circuit layout width
         unit: µm
         maximum:
-          value: any
+          value: 140
       height:
         display: Height
         description: Total circuit layout height
         unit: µm
         maximum:
-          value: any
+          value: 80
     tool:
       magic_area
 

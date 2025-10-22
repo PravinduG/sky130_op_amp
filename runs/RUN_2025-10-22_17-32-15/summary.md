@@ -18,13 +18,3 @@
 | KLayout DRC full     | klayout_drc          | drc_errors           |               ​ |          ​ |            ​ |          ​ |            0 |          0 |   Pass ✅    |
 | Antenna Checks       | magic_antenna_check  | antenna_violations   |               ​ |          ​ |            ​ |          ​ |            0 |          0 |   Pass ✅    |
 
-
-## Plots
-
-## gain_vs_temperature
-
-![gain_vs_temperature](./sky130_op_amp/rcx/gain_vs_temperature.png)
-
-## phase_margin_vs_corner
-
-![phase_margin_vs_corner](./sky130_op_amp/rcx/phase_margin_vs_corner.png)
