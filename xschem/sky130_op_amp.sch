@@ -75,11 +75,7 @@ N -100 240 -100 360 {lab=EN}
 N -0 -300 -0 -260 {lab=VDD}
 N 0 -320 0 -300 {lab=VDD}
 N -110 210 -100 210 {lab=EN}
-N -350 210 -350 250 {lab=VSS}
 N -350 170 -350 180 {lab=#net1}
-N -410 140 -350 140 {lab=VSS}
-N -410 140 -410 250 {lab=VSS}
-N -410 250 -350 250 {lab=VSS}
 N -220 240 -100 240 {lab=EN}
 N -220 210 -220 240 {lab=EN}
 N -310 210 -220 210 {lab=EN}
@@ -167,6 +163,10 @@ N 2000 130 2040 130 {lab=VDD}
 N 2040 150 2040 180 {lab=VDD}
 N 2000 210 2040 210 {lab=VDD}
 N 2000 180 2000 210 {lab=VDD}
+N -420 140 -350 140 {lab=VSS}
+N -420 140 -420 250 {lab=VSS}
+N -420 250 -350 250 {lab=VSS}
+N -350 210 -350 250 {lab=VSS}
 C {sky130_fd_pr/nfet_01v8.sym} -170 -20 0 0 {name=M1
 W=4
 L=1
@@ -317,7 +317,7 @@ sa=0 sb=0 sd=0
 model=nfet_01v8
 spiceprefix=
 }
-C {sky130_fd_pr/corner.sym} 440 -380 0 0 {name=CORNER1 only_toplevel=true corner=ss_mm
+C {sky130_fd_pr/corner.sym} 720 -380 0 0 {name=CORNER1 only_toplevel=true corner=tt
 }
 C {sky130_fd_pr/nfet_01v8.sym} -330 210 0 1 {name=M11
 W=4

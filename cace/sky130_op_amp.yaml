@@ -91,9 +91,9 @@ parameters:
       a0:
         display: DC gain
         description: The DC gain of the OTA
-        unit: V/V
+        unit: dB
         minimum: 
-          value: 1000
+          value: 60
         typical:
           value: any
         maximum:
@@ -141,9 +141,9 @@ parameters:
       corner:
         enumerate: [tt, ff, ss, fs, sf] # fs, sf
       temperature:
-        minimum: -40
+        minimum: 20
         typical: 27
-        maximum: 130
+        maximum: 50
 
 
   magic_area:

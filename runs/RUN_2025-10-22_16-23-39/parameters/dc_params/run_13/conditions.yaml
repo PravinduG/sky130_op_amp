@@ -1,0 +1,14 @@
+DUT_path: /foss/designs/sky130_op_amp/netlist/rcx/sky130_op_amp.spice
+N: 13
+PDK: sky130A
+PDK_ROOT: /foss/pdks
+cl: '2.5e-11'
+corner: sf
+filename: sky130_op_amp_tb
+ib: '4.9999999999999996e-06'
+iterations: '0'
+seed: '12345'
+simpath: /foss/designs/sky130_op_amp/runs/RUN_2025-10-22_16-23-39/parameters/dc_params/run_13
+temperature: '20'
+vcm: '0.9'
+vdd: '1.8'
