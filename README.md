@@ -1,7 +1,7 @@
 
 # sky130_ef_ip__template ![](../../workflows/cace/badge.svg)
 
-Short description about your IP block. 
+Designed by Pravindu Goonetilleke and Nilakna Warushavithana for the IEEE CASS–CEDA Analog IC Design Contest.
 
 - [Documentation](docs/sky130_ef_ip__template.md)
 - Characterization
